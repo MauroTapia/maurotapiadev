@@ -1,0 +1,55 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.App {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  min-height: 566px;
+  transition: opacity 0.5s ease;
+}
+
+.imagen {
+  position: relative;
+}
+
+.imagen::before {
+  content: "";
+  background-image: url("./beams.svg");
+  background-size: cover; /* Cubre el espacio disponible sin perder proporciones */
+  height: 634px; /* Altura inicial; considera ajustar o hacerla responsiva con vh o en una media query */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); /* Centra la imagen correctamente */
+  width: 100vw; /* Usa el ancho de la vista para adaptarse a diferentes tamaños de pantalla */
+  opacity: 0.5;
+  z-index: -1;
+  transition: opacity 0.3s;
+}
+
+@media (max-width: 768px) {
+  .imagen::before {
+    height: 300px; /* Ajusta la altura para dispositivos móviles */
+    /* Considera ajustar el tamaño de background-size si es necesario */
+  }
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+
+body {
+  font-family: 'Overpass', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
