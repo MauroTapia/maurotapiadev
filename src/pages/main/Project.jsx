@@ -6,8 +6,8 @@ import { SeparatorLine } from './Project.styles';
 const Projects = () => {
   const projectsData = [
     {
-      logo: "/assets/img/alquicancha.png",
-      imageSrc: "/assets/img/alqui.png",
+      logo: "./src/assets/img/alquicancha.png",
+      imageSrc: "./src/assets/img/alqui.png",
       alt: "undefined",
       title: "Alquicancha",
       description: "Una aplicacion movil encargada de reservar canchas deportivas.",
@@ -17,8 +17,8 @@ const Projects = () => {
       githubLink: "https://github.com/MauroTapia/Alquicancha"
     },
     {
-        logo: "/assets/img/dientin.png",
-        imageSrc: "/assets/img/clinica.png",
+        logo: "./src/assets/img/dientin.png",
+        imageSrc: "./src/assets/img/clinica.png",
         alt: "undefined",
         title: "Clinica odontologica",
         description: "Aplicacion para gestionar turnos odontologicos.",
