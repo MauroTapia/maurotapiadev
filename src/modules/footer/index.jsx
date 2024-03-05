@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <FooterStyle>
       <FooterDiv>
-            <Maurito src="/src/assets/img/maurito.jpg" alt="nofound" />
+            <Maurito src="/assets/img/maurito.jpg" alt="nofound" />
             <a href='/'>Mauro Tapia</a >
             <span>Creado en Argentina</span>
       </FooterDiv>
