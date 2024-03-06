@@ -24,7 +24,8 @@ const Projects = () => {
         description: "Aplicacion para gestionar turnos odontologicos.",
         services: "Start and finish development.",
         tools: "Java, Spring, Hibernate",
-        projectLink: "https://github.com/MauroTapia/ClinicaOdontologica"
+        projectLink: "https://github.com/MauroTapia/ClinicaOdontologica",
+        githubLink: "https://www.linkedin.com/feed/update/urn:li:activity:7092611628780650496/"
       },
     // Otros proyectos...
   ];
