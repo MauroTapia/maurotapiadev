@@ -7,7 +7,7 @@ const Projects = () => {
   const projectsData = [
     {
       logo: "./src/assets/img/alquicancha.png",
-      imageSrc: "./src/assets/img/alqui.png",
+      imageSrc: "https://raw.githubusercontent.com/MauroTapia/maurotapiadev/main/src/assets/img/alqui.png",
       alt: "undefined",
       title: "Alquicancha",
       description: "Una aplicacion movil encargada de reservar canchas deportivas.",
