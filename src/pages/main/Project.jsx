@@ -7,7 +7,7 @@ const Projects = () => {
   const projectsData = [
     {
       logo: "https://raw.githubusercontent.com/MauroTapia/maurotapiadev/main/src/assets/img/alquicancha.png",
-      imageSrc: "./src/assets/img/64shots_so.png",
+      imageSrc: "https://raw.githubusercontent.com/MauroTapia/maurotapiadev/main/src/assets/img/64shots_so.png",
       alt: "undefined",
       title: "Alquicancha",
       description: "Una aplicacion movil encargada de reservar canchas deportivas.",
@@ -18,7 +18,7 @@ const Projects = () => {
     },
     {
         logo: "https://raw.githubusercontent.com/MauroTapia/maurotapiadev/main/src/assets/img/dientin.png",
-        imageSrc: "./src/assets/img/clinica.png",
+        imageSrc: "https://raw.githubusercontent.com/MauroTapia/maurotapiadev/main/src/assets/img/clinica.PNG",
         alt: "undefined",
         title: "Clinica odontologica",
         description: "Aplicacion para gestionar turnos odontologicos.",
