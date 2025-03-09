@@ -153,7 +153,7 @@ export default function Home() {
               <path d="m14.5 4-5 16"></path>
             </svg>
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-teal-500">
-              3+ Years Experience
+              2+ Years Experience
             </span>
           </Badge>
 
@@ -178,7 +178,7 @@ export default function Home() {
               <path d="m14.5 4-5 16"></path>
             </svg>
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-red-500">
-              Remote Work
+              Hybrid Work
             </span>
           </Badge>
         </div>
