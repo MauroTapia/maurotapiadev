@@ -100,7 +100,7 @@ export default function Home() {
         <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-foreground to-foreground/70 text-transparent bg-clip-text mb-4">
           Mauro Tapia
         </h1>
-        <h2 className="text-xl md:text-2xl text-muted-foreground mb-4">Software Engineer</h2>
+        <h2 className="text-xl md:text-2xl text-muted-foreground mb-4">Backend Engineer</h2>
         <p className="max-w-xl text-base text-muted-foreground mb-6">
           Passionate about creating impactful user experiences through innovative software solutions. Currently building
           amazing products at Hiberus.
@@ -128,7 +128,7 @@ export default function Home() {
               <path d="m14.5 4-5 16"></path>
             </svg>
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-              Full Stack Development
+              Complete software development
             </span>
           </Badge>
 
