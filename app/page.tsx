@@ -277,9 +277,9 @@ export default function Home() {
                 <h3 className="text-lg font-semibold">Backend Developer</h3>
                 <p className="text-sm text-muted-foreground mb-2">Armaferro SA</p>
                 <p className="text-sm text-muted-foreground">
-                  API building and management, database management, distributed event processing and test migration.
+                  API building and management, database management.
                 </p>
-                <p className="text-sm text-muted-foreground mt-2">Using Java, Spring Boot, Mongo, ReactJs</p>
+                <p className="text-sm text-muted-foreground mt-2">Using Java, Spring Boot, MySQL, ReactJs</p>
               </div>
               <div className="text-left md:text-right mt-2 md:mt-0">
                 <p className="text-sm text-muted-foreground">Nov. 2022 - Dec. 2024</p>
